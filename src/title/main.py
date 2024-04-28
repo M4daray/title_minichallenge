@@ -4,4 +4,9 @@ import os
 
 
 if __name__ == "__main__":
-    print(pathlib.Path().resolve())
+    # script_raw_to_int.py
+    # emb.py
+    # clust.py
+    # classif.py
+
+    # eda.ipynb
