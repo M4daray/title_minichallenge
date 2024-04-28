@@ -15,10 +15,10 @@ Pour cela, nous allons entrainer un classifier qui va produire un score
 
 ## Résultats
 
-98 cluster trouvé voir kmean.csv pour les exemple "types"
-Classifer avec un macro average 0.83 pour 98 classes. (voir classification report dans le dossier data/report)
-Voir l'agencement des clusters dans eda.ipynb.
-On a modèle prêt qui peut être utiliser dans CleanLab pour une campagne d'annotation via ActiveLearning. 
+98 cluster trouvé voir kmean.csv pour les exemple "types"  
+Classifer avec un macro average 0.83 pour 98 classes. (voir classification report dans le dossier data/report)  
+Voir l'agencement des clusters dans eda.ipynb.  
+On a modèle prêt qui peut être utiliser dans CleanLab pour une campagne d'annotation via ActiveLearning.  
 
 ## Pistes d'amelioration
 
