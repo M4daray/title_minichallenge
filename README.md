@@ -6,8 +6,8 @@ pip install -e . pour installer le projet
 
 ## Méthode 
 
-La typologie des titres ne peut se faire qu'avec un expert métier. Il est possible de guider une campagne d'annotation via des modèle ML afin d'économiser le nombre d'exemple à voir.
-Pour cela, nous allons entrainer un classifier qui va produire un score 
+La typologie des titres ne peut se faire qu'avec un expert métier. Il est possible de guider une campagne d'annotation via des modèle ML afin d'économiser le nombre d'exemple à évaluer.
+Pour cela, nous allons entrainer un classifier qui va produire un score de confiance. 
 
 1) Utilisation d'un modèle embedding entrainée sur des données juridique française.
 2) Clustering via les embeddings afin de determiner des groupes similaires
@@ -18,7 +18,7 @@ Pour cela, nous allons entrainer un classifier qui va produire un score
 98 cluster trouvé voir clusteurs_info.csv pour les exemple "types"  
 Classifer avec un macro average 0.83 pour 98 classes. (voir classification report dans le dossier data/report)  
 Voir l'agencement des clusters dans eda.ipynb.  
-On a modèle prêt qui peut être utiliser dans CleanLab pour une campagne d'annotation via ActiveLearning.
+Modèle prêt XGBOOST qui peut être utiliser dans CleanLab pour une campagne d'annotation via ActiveLearning.
 
 ![Image des clusteurs](data/report/tsne_plot.png "Visualisation des cluster via tsne")
 
